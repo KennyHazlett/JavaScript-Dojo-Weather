@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+}
+.container{
+    width: 900px;
+    margin: 0 auto;
+}
+.asgard {
+    background-color: #9fc5f8;
+    margin: 0 auto;
+    color: #ffffff;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-links {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-around;
+}
+.asgard a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.nav-title {
+    margin-left: 20px;
+}
+.shield{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.hell{
+    border-top: solid black;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.mjonir{
+    display: flex;
+    justify-content: space-between;
+}
+.worthy{
+    padding: 25px;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #eeeeee;
+}
+.mjonir p{
+    margin-top: 20px;
+}
+.head{
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.fury{
+    border: solid black;
+    font-size: 1.2rem;
+    background-color: #eeeeee;
+    margin-top: 5px;
+}
+.skrull{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pymparticles{
+    height: 50px;
+    margin: 25px;
+}
+.accept{
+    padding: 20px;
+}
+.acceptIwill {
+    background: #9fc5f8;
+    padding: 5px 10px;
+    font-size: 1.2rem;
+    border: solid black;
+    border-radius: 0px;
+    box-shadow: 2px 2px #000;
+    width: max-content;
+}
+.red {
+    color: #cf2a27;
+    font-weight: bold;
+    font-size: 20px;
+}
+.blue {
+    color: #2b78e4;
+    font-weight: bold;
+    padding-left: 40px;
+    font-size: 20px;
+}
+.red::after, .blue::after{
+    content: "°";
+}
